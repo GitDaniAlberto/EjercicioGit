@@ -65,7 +65,7 @@ public class Ej01 extends Application {
 			grid.add(texto3, 0, 2);
 			grid.add(direccion, 1, 2);
 
-			ComboBox comboBox = new ComboBox();
+			ComboBox<Integer> comboBox = new ComboBox<Integer>();
 			for(int i = 0; i <= 100; i++){
 	        comboBox.getItems().add(i);
 			}
