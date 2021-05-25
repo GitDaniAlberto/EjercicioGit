@@ -84,14 +84,6 @@ public class Ej01 extends Application {
 			rb1.setToggleGroup(group);
 			rb2.setToggleGroup(group);
 
-
-
-			Text texto5 = new Text("Contraseña");
-			PasswordField contraseña = new PasswordField();
-			grid.add(texto5, 0, 5);
-			grid.add(contraseña, 1, 5);
-
-
 			Text texto6 = new Text("Biografia");
 			TextArea biografia = new TextArea();
 			grid.add(texto6, 0, 6);
