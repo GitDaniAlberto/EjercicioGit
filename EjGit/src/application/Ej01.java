@@ -9,6 +9,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.Slider;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
@@ -47,6 +48,8 @@ public class Ej01 extends Application {
 			TextField direccion = new TextField();
 
 
+
+
 			grid.setAlignment(Pos.CENTER);
 			grid.setHgap(8);
 			grid.setVgap(8);
@@ -79,6 +82,11 @@ public class Ej01 extends Application {
 			rb2.setText("Femenino");
 			grid.add(rb1, 0, 4);
 			grid.add(rb2, 1, 4);
+			Slider slider3 = new Slider(0, 500, 0);
+			slider3.setShowTickLabels(true);
+			slider3.setShowTickMarks(true);
+			slider3.setMajorTickUnit(50);
+			grid.add(slider3,0,5);
 
 			ToggleGroup group = new ToggleGroup();
 			rb1.setToggleGroup(group);
