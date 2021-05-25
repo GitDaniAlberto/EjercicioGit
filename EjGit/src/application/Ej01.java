@@ -82,6 +82,7 @@ public class Ej01 extends Application {
 			rb2.setText("Femenino");
 			grid.add(rb1, 0, 4);
 			grid.add(rb2, 1, 4);
+			
 			Slider slider3 = new Slider(0, 500, 0);
 			slider3.setShowTickLabels(true);
 			slider3.setShowTickMarks(true);
