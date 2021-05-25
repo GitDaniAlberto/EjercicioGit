@@ -42,7 +42,7 @@ public class Ej01 extends Application {
 
 			Text texto1 = new Text("Nombre");
 			TextField nombre = new TextField();
-			Text texto2 = new Text("Apellidos");
+			Text texto2 = new Text("Apellido");
 			TextField apellido = new TextField();
 			Text texto3 = new Text("Direccion");
 			TextField direccion = new TextField();
