@@ -92,16 +92,6 @@ public class Ej01 extends Application {
 			grid.add(contraseña, 1, 5);
 
 
-			Text texto6 = new Text("Biografia");
-			TextArea biografia = new TextArea();
-			grid.add(texto6, 0, 6);
-			grid.add(biografia, 1, 6);
-
-			CheckBox check = new CheckBox();
-			grid.add(check, 0, 7);
-			check.setSelected(true);
-			Text texto7 = new Text("Subscribirse a la newsletter");
-			grid.add(texto7, 1, 7);
 
 			root.setRight(boton);
 			root.setLeft(titulo);
